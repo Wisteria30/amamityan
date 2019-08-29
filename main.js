@@ -16,23 +16,29 @@ window.onload = function () {
 }
 
 function PlaySound(src) {
-    audio = new Audio(src);
+    let audio = new Audio(src);
     audio.play();
 }
 
-function StopSound(elem) {
-    elem.audio.pause();
-}
-
 function writeKey(event) {
-    target = document.getElementById("message");
+    let target = document.getElementById("message");
     if (event.key in audioElem) {
         PlaySound(audioElem[event.key][1]);
         target.innerHTML = audioElem[event.key][0];
     }
-    setTimeout(() => { target.innerHTML = ""; }, 300);
+    setTimeout(() => { target.innerHTML = ""; }, 500);
+}
+
+function rightUp(event) {
+    if (event.key in audioElem) {
+        let target = document.getElementById(event.key);
+        target.style.backgroundColor = "#FFCCCC";
+        setTimeout(() => { target.style.backgroundColor = "#FF6565"; }, 300);
+    }
 }
 
 window.document.onkeydown = function (event) {
+    console.log(event.key);
     writeKey(event);
+    rightUp(event);
 }

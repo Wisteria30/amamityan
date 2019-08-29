@@ -26,6 +26,53 @@ main img {
   width: 100%;
   }
 
+.button-like {
+  position: absolute;
+  background-color:#FF6565;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 135px;
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+}
+
+#n {
+  top: 62%;
+  left: 1%;
+}
+#e {
+  top: 62%;
+  left: 13%;
+}
+#d {
+  top: 62%;
+  left: 25%;
+}
+#j {
+  top: 62%;
+  left: 37%;
+}
+
+#h {
+  top: 80%;
+  left: 1%;
+}
+#y {
+  top: 80%;
+  left: 13%;
+}
+#k {
+  top: 80%;
+  left: 25%;
+}
+#p {
+  top: 80%;
+  left: 37%;
+}
+
 .sorry {
   color: black;
   font-weight: bold;
