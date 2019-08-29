@@ -14,7 +14,7 @@ main #message {
     font-weight: bold;
     font-size: 7em;
     top: 30%;
-    left: 27%;
+    left: 26%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -45,32 +45,32 @@ main img {
 }
 #e {
   top: 62%;
-  left: 13%;
+  left: 12%;
 }
 #d {
   top: 62%;
-  left: 25%;
+  left: 23%;
 }
 #j {
   top: 62%;
-  left: 37%;
+  left: 34%;
 }
 
 #h {
-  top: 80%;
+  top: 78%;
   left: 1%;
 }
 #y {
-  top: 80%;
-  left: 13%;
+  top: 78%;
+  left: 12%;
 }
 #k {
-  top: 80%;
-  left: 25%;
+  top: 78%;
+  left: 23%;
 }
 #p {
-  top: 80%;
-  left: 37%;
+  top: 78%;
+  left: 34%;
 }
 
 .sorry {
