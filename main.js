@@ -16,8 +16,17 @@ window.onload = function () {
 }
 
 function PlaySound(src) {
+    let startTime = performance.now();
     let audio = new Audio(src);
+    let endTime = performance.now();
+    console.log("create Audio Object")
+    console.log(endTime - startTime);
+
+    startTime = performance.now();
     audio.play();
+    endTime = performance.now();
+    console.log("play Audio")
+    console.log(endTime - startTime);
 }
 
 function writeKey(event) {
@@ -38,7 +47,6 @@ function rightUp(event) {
 }
 
 window.document.onkeydown = function (event) {
-    console.log(event.key);
     writeKey(event);
     rightUp(event);
 }
