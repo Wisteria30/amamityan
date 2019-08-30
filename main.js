@@ -1,12 +1,12 @@
 const audioElem = {
-    n: ["<p>ありがとう</p>" + "<p>ございます</p>", "./audio/arigatou.mp3"],
-    e: ["え？", "./audio/e.mp3"],
-    d: ["えぇ!?", "./audio/ee.mp3"],
-    j: ["えへへ", "./audio/ehehe.mp3"],
-    h: ["はぁ...", "./audio/haa.mp3"],
-    y: ["はい!", "./audio/hai.mp3"],
-    k: ["わぁ!!!", "./audio/kokeru.mp3"],
-    p: ["Pさん♪", "./audio/Psan.mp3"]
+    k: ["<p>ありがとう</p>" + "<p>ございます</p>", "./audio/arigatou.mp3"],
+    f: ["え？", "./audio/e.mp3"],
+    e: ["えぇ!?", "./audio/ee.mp3"],
+    w: ["えへへ", "./audio/ehehe.mp3"],
+    i: ["はぁ...", "./audio/haa.mp3"],
+    j: ["はい!", "./audio/hai.mp3"],
+    r: ["わぁ!!!", "./audio/kokeru.mp3"],
+    o: ["Pさん♪", "./audio/Psan.mp3"]
 };
 
 window.onload = function () {
@@ -16,17 +16,8 @@ window.onload = function () {
 }
 
 function PlaySound(src) {
-    let startTime = performance.now();
     let audio = new Audio(src);
-    let endTime = performance.now();
-    console.log("create Audio Object")
-    console.log(endTime - startTime);
-
-    startTime = performance.now();
     audio.play();
-    endTime = performance.now();
-    console.log("play Audio")
-    console.log(endTime - startTime);
 }
 
 function writeKey(event) {
