@@ -1,5 +1,5 @@
 const audioElem = {
-    k: ["<p>ありがとう</p>" + "<p>ございます</p>", "./audio/arigatou.mp3"],
+    l: ["<p>ありがとう</p>" + "<p>ございます</p>", "./audio/arigatou.mp3"],
     f: ["え？", "./audio/e.mp3"],
     e: ["えぇ!?", "./audio/ee.mp3"],
     w: ["えへへ", "./audio/ehehe.mp3"],
