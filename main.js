@@ -1,10 +1,10 @@
 const audioElem = {
     l: ["<p>ありがとう</p>" + "<p>ございます</p>", "./audio/arigatou.mp3"],
-    f: ["え？", "./audio/e.mp3"],
+    j: ["え？", "./audio/e.mp3"],
     e: ["えぇ!?", "./audio/ee.mp3"],
-    w: ["えへへ", "./audio/ehehe.mp3"],
-    i: ["はぁ...", "./audio/haa.mp3"],
-    j: ["はい!", "./audio/hai.mp3"],
+    i: ["えへへ", "./audio/ehehe.mp3"],
+    w: ["はぁ...", "./audio/haa.mp3"],
+    f: ["はい!", "./audio/hai.mp3"],
     r: ["わぁ!!!", "./audio/kokeru.mp3"],
     o: ["Pさん♪", "./audio/Psan.mp3"]
 };
